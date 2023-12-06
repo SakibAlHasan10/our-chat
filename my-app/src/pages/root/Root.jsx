@@ -1,8 +1,9 @@
+import Home from "../home/Home";
 
 const Root = () => {
     return (
         <div>
-            <h1>root</h1>
+            <Home/>
         </div>
     );
 };
