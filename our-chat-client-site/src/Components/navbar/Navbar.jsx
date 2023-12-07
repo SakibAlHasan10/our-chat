@@ -155,8 +155,8 @@ const Navbar = () => {
   );
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+    <Box sx={{ flexGrow: 1,bgColor:"#fff" }}>
+      <AppBar position="fixed" sx={{}} >
         <Toolbar>
           <IconButton
             size="large"
@@ -164,6 +164,7 @@ const Navbar = () => {
             color="inherit"
             aria-label="open drawer"
             sx={{ mr: 2 }}
+            
           >
             <MenuIcon />
           </IconButton>
@@ -173,7 +174,7 @@ const Navbar = () => {
             component="div"
             sx={{ display: { xs: "none", sm: "block" } }}
           >
-            MUI
+            ourChat
           </Typography>
           <Search>
             <SearchIconWrapper>
