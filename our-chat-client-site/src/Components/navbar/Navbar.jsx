@@ -175,6 +175,7 @@ const Navbar = () => {
             sx={{ display: { xs: "none", sm: "block" } }}
           >
             ourChat
+            {/* hdkdd */}
           </Typography>
           <Search>
             <SearchIconWrapper>
