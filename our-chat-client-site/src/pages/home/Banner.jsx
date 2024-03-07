@@ -1,8 +1,9 @@
 const Banner = () => {
   return (
     <div className="w-full pt-24">
-      <div className="bg-home-banner rounded-3xl m-auto min-h-screen w-11/12 bg-cover bg-center bg-no-repeat mb-96">
-        <div className="flex h-screen justify-center items-center lg:px-10">
+      <div className="w-11/12">
+
+        <div className="flex bg-home-banner h-screen justify-center w-full items-center lg:px-10">
           <div className="flex-1 text-white ">
             <h2 className="lg:text-[80px] tracking-tighter leading-none lg:w-[322px]">
               Message privately
@@ -14,7 +15,12 @@ const Banner = () => {
           </div>
           <div className="flex-1"></div>
         </div>
-      </div>
+      
+      <p className="text-black text-sm text-right">
+        *Data charges may apply. Contact your provider for details.
+      </p>
+      
+    </div>
     </div>
   );
 };
