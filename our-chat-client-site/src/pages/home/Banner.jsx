@@ -16,7 +16,7 @@ const Banner = () => {
             <div className="flex-1"></div>
           </div>
         </div>
-          <p className="text-black mt-4 text-sm md:text-right">
+          <p className="text-black m-4 text-sm md:text-right">
             *Data charges may apply. Contact your provider for details.
           </p>
       </div>
