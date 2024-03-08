@@ -173,7 +173,7 @@ const Navbar = () => {
             variant="h6"
             noWrap
             component="div"
-            sx={{ display: { xs: "none", sm: "block", cursor:"pointer" } }}
+            sx={{ display: { xs: "none", sm: "block", cursor:"pointer", color:"#AD554D" } }}
           >
             ourChat
             {/* hdkdd */}
